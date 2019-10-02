@@ -1,6 +1,7 @@
-This is the Unofficial API of bitly.com [VERSION 4]
+This is an Unofficial API of bitly.com [VERSION 4]
 
 [![Build Status](https://travis-ci.org/kishanmadhesiya/bitly4api.svg?branch=master)](https://travis-ci.org/kishanmadhesiya/bitly4api/)
+[![npm version](https://badge.fury.io/js/bitly4api.svg)](https://badge.fury.io/js/bitly4api)
 
 ## Installation
 

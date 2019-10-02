@@ -77,13 +77,13 @@ bitly.shorten('https://github.com/kishanmadhesiya/bitly4api')
 
 ### DOCUMENTATION VERSION 4
 
-[DOCUMENTATION] (https://dev.bitly.com/v4_documentation.html)
+[DOCUMENTATION](https://dev.bitly.com/v4_documentation.html)
 
 #### For More Help
 
 * Mail me @ kishanmadhesiya@gmail.com
 
-You can also [PayPal Me](https://paypal.me/kishanmadhesiya)
+* You can also [PayPal Me](https://paypal.me/kishanmadhesiya)
 
 ## Tests
 To run tests type `npm test`.

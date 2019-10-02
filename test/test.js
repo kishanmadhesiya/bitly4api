@@ -237,6 +237,50 @@ describe('Expand_Bitlink', function() {
  });
 });
 
+describe('Create_Bitlink', function() {
+ describe('#Create_Bitlink()', function() {
+   it('should return a success', function(done) {
+     var bitly = new Bitly(bitly_token);
+     bitly.Create_Bitlink("domain", "title", "group_guid", "tags", "deeplinks", "long_url").then((result) => {
+       done();
+     }, done)
+   });
+ });
+});
+
+describe('Get_Metrics_for_Bitlink_by_Referring_by_Domain', function() {
+ describe('#Get_Metrics_for_Bitlink_by_Referring_by_Domain()', function() {
+   it('should return a success', function(done) {
+     var bitly = new Bitly(bitly_token);
+     bitly.Get_Metrics_for_Bitlink_by_Referring_by_Domain("bit.ly").then((result) => {
+       done();
+     }, done)
+   });
+ });
+});
+
+describe('getPaymentInvoices', function() {
+ describe('#getPaymentInvoices()', function() {
+   it('should return a success', function(done) {
+     var bitly = new Bitly(bitly_token);
+     bitly.getPaymentInvoices("organization_guid").then((result) => {
+       done();
+     }, done)
+   });
+ });
+});
+
+describe('Get_BSDS', function() {
+ describe('#Get_BSDS()', function() {
+   it('should return a success', function(done) {
+     var bitly = new Bitly(bitly_token);
+     bitly.Get_BSDS().then((result) => {
+       done();
+     }, done)
+   });
+ });
+});
+
 // describe('Get_Metrics_for_Bitlink_by_Referrers', function() {
 //  describe('#Get_Metrics_for_Bitlink_by_Referrers()', function() {
 //    it('should return a success', function(done) {
@@ -248,16 +292,6 @@ describe('Expand_Bitlink', function() {
 //  });
 // });
 
-describe('Create_Bitlink', function() {
- describe('#Create_Bitlink()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Create_Bitlink("domain", "title", "group_guid", "tags", "deeplinks", "long_url").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
 
 // describe('Get_Clicks_Summary_for_Bitlink', function() {
 //  describe('#Get_Clicks_Summary_for_Bitlink()', function() {
@@ -302,36 +336,3 @@ describe('Create_Bitlink', function() {
 //    });
 //  });
 // });
-
-describe('Get_Metrics_for_Bitlink_by_Referring_by_Domain', function() {
- describe('#Get_Metrics_for_Bitlink_by_Referring_by_Domain()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Get_Metrics_for_Bitlink_by_Referring_by_Domain("bit.ly").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
-
-describe('getPaymentInvoices', function() {
- describe('#getPaymentInvoices()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.getPaymentInvoices("organization_guid").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
-
-describe('Get_BSDS', function() {
- describe('#Get_BSDS()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Get_BSDS().then((result) => {
-       done();
-     }, done)
-   });
- });
-});

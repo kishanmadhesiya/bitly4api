@@ -277,7 +277,7 @@ class Bitly {
         })
         .then((response) => {
           return resolve(response.json());
-        });
+        })
     });
   }
 

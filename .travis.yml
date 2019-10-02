@@ -4,7 +4,7 @@ sudo: false
 
 node_js:
   - "8.1.3"
-  - "5.8"
+  - "12.5.0"
 
 # Directories we want to cache between each build
 cache:

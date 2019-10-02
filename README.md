@@ -7,7 +7,7 @@ This is the API of bitly.com
 
 Using NPM `npm install bitlyapi`
 
-Using GIT `git clone https://github.com/kishanmadhesiya/bitly.git`
+Using GIT `git clone https://github.com/kishanmadhesiya/bitly4api.git`
 
 ## Usage
 
@@ -36,7 +36,7 @@ bitly.shorten('http://nodejs.org', (response) => {
 var Bitly = require('bitlyapi');
 var bitly = new Bitly('<ACCESS TOKEN>');
 
-bitly.shorten('https://github.com/kishanmadhesiya/bitly')
+bitly.shorten('https://github.com/kishanmadhesiya/bitly4api')
   .then(function(response) {
     console.log(response);
   }, function(error) {
@@ -44,44 +44,9 @@ bitly.shorten('https://github.com/kishanmadhesiya/bitly')
   });
 ```
 
-### Bit.ly Api Features
-
-* shorten()
-uses:- shorten(LONG_URL)
-
-* expand()  
-uses:- expand(BITLY_HASH) or expand([SHORT_URL, BITLY_HASH]) or expand(SHORT_URL)
-
-* clicks()  
-uses:- clicks(BITLY_HASH) or clicks([SHORT_URL, BITLY_HASH]) or clicks(SHORT_URL)
-
-* clicksByMinute()
-uses:- clicksByMinute(BITLY_HASH) or clicksByMinute([SHORT_URL, BITLY_HASH]) or clicksByMinute(SHORT_URL)
+### Bit.ly Api Methods will update soon
 
 
-* clicksByDay()
-uses:- clicksByDay(BITLY_HASH) or clicksByDay([SHORT_URL, BITLY_HASH]) or clicksByDay(SHORT_URL)
-
-* referrers()
-uses:- referrers(SHORT_URL) or referrers(BITLY_HASH)
-
-* countries()
-uses:- countries(BITLY_HASH) or countries(SHORT_URL)
-
-* bitlyProDomain()
-uses:- bitlyProDomain(LONG_URL)
-
-* lookup()
-uses:- lookup([LONG_URL, 'http://kishanmadhesiya.com']) or lookup(LONG_URL)
-
-* info()
-info(BITLY_HASH) or info([SHORT_URL, BITLY_HASH]) or info(SHORT_URL)
-
-* history()
-uses:- history()
-
-* linkEdit()
-uses:- linkEdit(metadata_field, link, new_value)
 
 
 ## Tests

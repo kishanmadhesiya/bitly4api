@@ -9,17 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kishanmadhesiya/bitly.git"
+    "url": "https://github.com/kishanmadhesiya/bitly4api"
   },
   "bugs": {
-    "url": "https://github.com/kishanmadhesiya/bitly/issues"
+    "url": "https://github.com/kishanmadhesiya/bitly4api/issues"
   },
   "keywords": [
     "bitly",
     "shorten",
     "url",
     "bitly api",
-    "bitly version 4"
+    "bitly version 4",
+    "v4",
+    "bitly latest"
   ],
   "author": {
     "name": "Kishan Madhesiya",

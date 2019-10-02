@@ -1,6 +1,6 @@
 This is the API of bitly.com
 
-[![Build Status](https://travis-ci.org/kishanmadhesiya/bitly.svg?branch=master)](https://travis-ci.org/kishanmadhesiya/bitly/)
+[![Build Status](https://travis-ci.org/kishanmadhesiya/bitly4api.svg?branch=master)](https://travis-ci.org/kishanmadhesiya/bitly4api/)
 [![npm version](https://badge.fury.io/js/bitlyapi.png)](https://badge.fury.io/js/bitlyapi)
 
 ## Installation

@@ -237,16 +237,16 @@ describe('Expand_Bitlink', function() {
  });
 });
 
-describe('Get_Metrics_for_Bitlink_by_Referrers', function() {
- describe('#Get_Metrics_for_Bitlink_by_Referrers()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Get_Metrics_for_Bitlink_by_Referrers("bitlink_id").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
+// describe('Get_Metrics_for_Bitlink_by_Referrers', function() {
+//  describe('#Get_Metrics_for_Bitlink_by_Referrers()', function() {
+//    it('should return a success', function(done) {
+//      var bitly = new Bitly(bitly_token);
+//      bitly.Get_Metrics_for_Bitlink_by_Referrers("bitlink_id").then((result) => {
+//        done();
+//      }, done)
+//    });
+//  });
+// });
 
 describe('Create_Bitlink', function() {
  describe('#Create_Bitlink()', function() {

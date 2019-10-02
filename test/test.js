@@ -259,49 +259,49 @@ describe('Create_Bitlink', function() {
  });
 });
 
-describe('Get_Clicks_Summary_for_Bitlink', function() {
- describe('#Get_Clicks_Summary_for_Bitlink()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Get_Clicks_Summary_for_Bitlink("bit.ly").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
+// describe('Get_Clicks_Summary_for_Bitlink', function() {
+//  describe('#Get_Clicks_Summary_for_Bitlink()', function() {
+//    it('should return a success', function(done) {
+//      var bitly = new Bitly(bitly_token);
+//      bitly.Get_Clicks_Summary_for_Bitlink("bit.ly").then((result) => {
+//        done();
+//      }, done)
+//    });
+//  });
+// });
 
-describe('Update_Bitlink', function() {
- describe('#Update_Bitlink()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Update_Bitlink("references", "archived", "tags", "created_at", "title", "deeplinks", "created_by", "long_url", "client_id", "custom_bitlinks", "link", "id").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
+// describe('Update_Bitlink', function() {
+//  describe('#Update_Bitlink()', function() {
+//    it('should return a success', function(done) {
+//      var bitly = new Bitly(bitly_token);
+//      bitly.Update_Bitlink("references", "archived", "tags", "created_at", "title", "deeplinks", "created_by", "long_url", "client_id", "custom_bitlinks", "link", "id").then((result) => {
+//        done();
+//      }, done)
+//    });
+//  });
+// });
 
-describe('Retrieve_Bitlink', function() {
- describe('#Retrieve_Bitlink()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Retrieve_Bitlink("bit.ly").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
+// describe('Retrieve_Bitlink', function() {
+//  describe('#Retrieve_Bitlink()', function() {
+//    it('should return a success', function(done) {
+//      var bitly = new Bitly(bitly_token);
+//      bitly.Retrieve_Bitlink("bit.ly").then((result) => {
+//        done();
+//      }, done)
+//    });
+//  });
+// });
 
-describe('Get_Metrics_for_Bitlink_by_Referrers_by_Domain', function() {
- describe('#Get_Metrics_for_Bitlink_by_Referrers_by_Domain()', function() {
-   it('should return a success', function(done) {
-     var bitly = new Bitly(bitly_token);
-     bitly.Get_Metrics_for_Bitlink_by_Referrers_by_Domain("bit.ly").then((result) => {
-       done();
-     }, done)
-   });
- });
-});
+// describe('Get_Metrics_for_Bitlink_by_Referrers_by_Domain', function() {
+//  describe('#Get_Metrics_for_Bitlink_by_Referrers_by_Domain()', function() {
+//    it('should return a success', function(done) {
+//      var bitly = new Bitly(bitly_token);
+//      bitly.Get_Metrics_for_Bitlink_by_Referrers_by_Domain("bit.ly").then((result) => {
+//        done();
+//      }, done)
+//    });
+//  });
+// });
 
 describe('Get_Metrics_for_Bitlink_by_Referring_by_Domain', function() {
  describe('#Get_Metrics_for_Bitlink_by_Referring_by_Domain()', function() {

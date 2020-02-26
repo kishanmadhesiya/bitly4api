@@ -2,7 +2,7 @@
 
 const url = require('url');
 const isUri = require('valid-url').isUri;
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 
 
 class Bitly {

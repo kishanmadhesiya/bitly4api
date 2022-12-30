@@ -31,7 +31,7 @@
   "license": "ISC",
   "dependencies": {
     "coveralls": "^3.0.6",
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "node-fetch": "^2.6.0",
     "url": "^0.11.0",
     "valid-url": "^1.0.9"
